@@ -1,0 +1,13 @@
+# Python program to calculate square of a given number
+
+def square(num):
+    """
+    This function takes a single argument of type double, named num.
+    It computes the square of the input number by multiplying num with itself and then returns the resulting value.
+    Essentially, this function returns the square of a given number.
+    """
+    return num * num
+
+# Test the function
+number = 8
+print("The square of", number, "is", square(number)) 
